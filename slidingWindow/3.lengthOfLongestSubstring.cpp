@@ -24,13 +24,3 @@ public:
         return maxLen;
     }
 };
-
-int main() {
-
-    string s = "abcabcbb";
-    Solution solution;
-
-    cout << solution.lengthOfLongestSubstring(s) << endl;
-
-    return 0;
-}
